@@ -1,0 +1,60 @@
+========================================
+        LINUX PROCESS MANAGER
+========================================
+
+Current Date:
+Wed Sep 30 06:55:16 AM IST 2026
+
+Current User:
+valle-surya
+
+Hostname:
+valle-surya-VirtualBox
+
+----------------------------------------
+Top 10 CPU Usage Processes
+----------------------------------------
+    PID USER     %CPU %MEM COMMAND
+   5128 valle-s+  250  0.1 ps
+   5129 valle-s+ 50.0  0.0 head
+   2976 valle-s+ 14.1 13.3 firefox
+   1987 valle-s+ 12.4  8.3 gnome-shell
+   5124 valle-s+ 11.1  0.0 process_manager
+   3616 valle-s+  8.1 13.2 Isolated Web Co
+   3186 valle-s+  1.6  3.7 Privileged Cont
+   3670 valle-s+  1.2  5.9 Isolated Web Co
+      1 root      0.8  0.3 systemd
+
+----------------------------------------
+Top 10 Memory Usage Processes
+----------------------------------------
+    PID USER     %CPU %MEM COMMAND
+   2976 valle-s+ 14.1 13.3 firefox
+   3616 valle-s+  8.1 13.2 Isolated Web Co
+   1987 valle-s+ 12.4  8.3 gnome-shell
+   3670 valle-s+  1.2  5.9 Isolated Web Co
+   3186 valle-s+  1.6  3.7 Privileged Cont
+   3404 valle-s+  0.2  2.3 WebExtensions
+   3690 valle-s+  0.1  1.6 Web Content
+   3863 valle-s+  0.0  1.6 Web Content
+   4514 valle-s+  0.0  1.6 Web Content
+
+----------------------------------------
+Search for a Process
+----------------------------------------
+valle-s+    2976    1987 14 06:30 ?        00:03:32 /snap/firefox/8306/usr/lib/firefox/firefox
+valle-s+    3044    1741  0 06:30 ?        00:00:00 /snap/firefox/8306/usr/lib/firefox/crashhelper 2976 9 /tmp/ 11
+valle-s+    3107    2976  0 06:30 ?        00:00:00 /snap/firefox/8306/usr/lib/firefox/firefox -contentproc -ipcHandle 0 -signalPipe 1 -initialChannelId {7cbba66d-4dc8-4f45-ad2e-d4787ae8eb83} -parentPid 2976 -greomni /snap/firefox/8306/usr/lib/firefox/omni.ja -appomni /snap/firefox/8306/usr/lib/firefox/browser/omni.ja -appDir /snap/firefox/8306/usr/lib/firefox/browser 1 forkserver
+valle-s+    3130    3107  0 06:30 ?        00:00:00 /snap/firefox/8306/usr/lib/firefox/firefox -contentproc -parentBuildID 20260512031714 -prefsHandle 0:36956 -prefMapHandle 1:286120 -sandboxReporter 2 -chrootClient 3 -ipcHandle 4 -initialChannelId {7e637d9d-3103-4b0b-9785-621b689b1b68} -parentPid 2976 -crashReporter 5 -crashHelper 6 -appDir /snap/firefox/8306/usr/lib/firefox/browser 2 socket
+valle-s+    3186    3107  1 06:30 ?        00:00:24 /snap/firefox/8306/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:37063 -prefMapHandle 1:286120 -jsInitHandle 2:156120 -parentBuildID 20260512031714 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {5fc9241e-67de-4bf8-ba9f-f49e594ba46c} -parentPid 2976 -crashReporter 6 -crashHelper 7 -greomni /snap/firefox/8306/usr/lib/firefox/omni.ja -appomni /snap/firefox/8306/usr/lib/firefox/browser/omni.ja -appDir /snap/firefox/8306/usr/lib/firefox/browser 3 tab
+valle-s+    3193    3107  0 06:30 ?        00:00:02 /snap/firefox/8306/usr/lib/firefox/firefox -contentproc -parentBuildID 20260512031714 -prefsHandle 0:37063 -prefMapHandle 1:286120 -sandboxReporter 2 -chrootClient 3 -ipcHandle 4 -initialChannelId {17f8a9b4-b813-4ecc-83a1-0c80513a91b5} -parentPid 2976 -crashReporter 5 -crashHelper 6 -appDir /snap/firefox/8306/usr/lib/firefox/browser 4 rdd
+valle-s+    3404    3107  0 06:30 ?        00:00:03 /snap/firefox/8306/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:37185 -prefMapHandle 1:286120 -jsInitHandle 2:156120 -parentBuildID 20260512031714 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {e67fd1db-7a19-45d8-95a8-b0dc9b4ac5a4} -parentPid 2976 -crashReporter 6 -crashHelper 7 -greomni /snap/firefox/8306/usr/lib/firefox/omni.ja -appomni /snap/firefox/8306/usr/lib/firefox/browser/omni.ja -appDir /snap/firefox/8306/usr/lib/firefox/browser 5 tab
+valle-s+    3616    3107  8 06:31 ?        00:01:58 /snap/firefox/8306/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:44255 -prefMapHandle 1:286120 -jsInitHandle 2:156120 -parentBuildID 20260512031714 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {52b0bc49-c20c-45b7-a790-2daa9525db12} -parentPid 2976 -crashReporter 6 -crashHelper 7 -greomni /snap/firefox/8306/usr/lib/firefox/omni.ja -appomni /snap/firefox/8306/usr/lib/firefox/browser/omni.ja -appDir /snap/firefox/8306/usr/lib/firefox/browser 6 tab
+valle-s+    3670    3107  1 06:31 ?        00:00:18 /snap/firefox/8306/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:44385 -prefMapHandle 1:286120 -jsInitHandle 2:156120 -parentBuildID 20260512031714 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {4a9a226b-4bf6-4065-a7c7-1b7f56c25946} -parentPid 2976 -crashReporter 6 -crashHelper 7 -greomni /snap/firefox/8306/usr/lib/firefox/omni.ja -appomni /snap/firefox/8306/usr/lib/firefox/browser/omni.ja -appDir /snap/firefox/8306/usr/lib/firefox/browser 7 tab
+valle-s+    3690    3107  0 06:31 ?        00:00:02 /snap/firefox/8306/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:44385 -prefMapHandle 1:286120 -jsInitHandle 2:156120 -parentBuildID 20260512031714 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {302a271e-a9ac-42fb-8642-ca7281a48d74} -parentPid 2976 -crashReporter 6 -crashHelper 7 -greomni /snap/firefox/8306/usr/lib/firefox/omni.ja -appomni /snap/firefox/8306/usr/lib/firefox/browser/omni.ja -appDir /snap/firefox/8306/usr/lib/firefox/browser 8 tab
+valle-s+    3857    3107  0 06:31 ?        00:00:00 /snap/firefox/8306/usr/lib/firefox/firefox -contentproc -parentBuildID 20260512031714 -sandboxingKind 0 -prefsHandle 0:48295 -prefMapHandle 1:286120 -sandboxReporter 2 -chrootClient 3 -ipcHandle 4 -initialChannelId {e7665c8e-7439-4f20-9c85-3d78d6ce13f7} -parentPid 2976 -crashReporter 5 -crashHelper 6 -appDir /snap/firefox/8306/usr/lib/firefox/browser 9 utility
+valle-s+    3863    3107  0 06:31 ?        00:00:00 /snap/firefox/8306/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:44544 -prefMapHandle 1:286120 -jsInitHandle 2:156120 -parentBuildID 20260512031714 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {2873e336-33d5-4a31-a23e-491778f7110e} -parentPid 2976 -crashReporter 6 -crashHelper 7 -greomni /snap/firefox/8306/usr/lib/firefox/omni.ja -appomni /snap/firefox/8306/usr/lib/firefox/browser/omni.ja -appDir /snap/firefox/8306/usr/lib/firefox/browser 10 tab
+valle-s+    4514    3107  0 06:37 ?        00:00:00 /snap/firefox/8306/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:44760 -prefMapHandle 1:286120 -jsInitHandle 2:156120 -parentBuildID 20260512031714 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {35d71e5e-0351-4d5e-b38c-fba0c96773c5} -parentPid 2976 -crashReporter 6 -crashHelper 7 -greomni /snap/firefox/8306/usr/lib/firefox/omni.ja -appomni /snap/firefox/8306/usr/lib/firefox/browser/omni.ja -appDir /snap/firefox/8306/usr/lib/firefox/browser 11 tab
+valle-s+    5133    5124  0 06:55 pts/0    00:00:00 grep firefox
+
+Process Manager Completed.
